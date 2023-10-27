@@ -1,7 +1,7 @@
 {
     "name": "Continuous Carousel",
     "handle": "continuous-carousel",
-    "author": "yassine-bouanane",
+    "author": "alpacapp",
     "category": "media",
     "description": "A continuous sliding carousel of images. Ideal for Custom Logo Showcase.",
     "entry": "block.liquid",
