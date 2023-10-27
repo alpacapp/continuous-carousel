@@ -1,0 +1,10 @@
+{
+    "name": "Continuous Carousel",
+    "handle": "continuous-carousel",
+    "author": "yassine-bouanane",
+    "category": "media",
+    "description": "A continuous sliding carousel of images. Ideal for Custom Logo Showcase.",
+    "entry": "block.liquid",
+    "stylesheet": "style.css",
+    "icon": "view_carousel"
+}

@@ -1,0 +1,28 @@
+#_BLOCK_ .carousel {
+  display:flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  column-gap:{{ "spacing" | css_var }};
+  overflow:hidden;
+  user-select:none;
+  --translate-target:calc(var(--n-carousel-images) * ({{ "imageWidth" | css_var }} + {{ "spacing" | css_var }}));
+  {% if direction=="left" %}
+    justify-content:flex-end;
+  {% endif %}
+  & a, & span {
+    animation:carousel-{{ _blockSettings.id }} calc({{ "speed" | css_var }} * var(--n-carousel-images)) linear infinite both;
+    width:{{ "imageWidth" | css_var }};
+    flex: 0 0 auto;
+  }
+  & img {
+    width:100%;
+  }
+}
+@keyframes carousel-{{ _blockSettings.id }} {
+  from {transform:translateX(0px);}
+  {% if direction=="left" %}
+    to {transform:translateX(var(--translate-target));}
+  {% else %}
+    to {transform:translateX(calc(-1 * var(--translate-target)));}
+  {% endif %}
+}

@@ -1,0 +1,78 @@
+{
+    "elements": [
+      {
+      	"name": "Carousel",
+      	"handle": "carousel",
+      	"customizations": "box",
+      	"hoverCustomizations": true,
+      },
+      {
+      	"name": "Carousel Image",
+      	"handle": "carousel-image",
+      	"customizations": "box",
+      	"hoverCustomizations": true,
+        "activeCustomizations": true,
+      }
+    ],
+	"properties"	: [
+		{
+			"name": "Images",
+    		"variable": "images",
+    		"type": "image-gallery",
+    		"default": []
+		},
+        {
+			"name"			: "Direction",
+			"variable"		: "direction",
+			"type"			: "dropdown",
+            "options"		: [
+              {
+                "name":"Left",
+                "value":"left"
+              },
+              {
+                "name":"Right",
+                "value":"right"
+              }
+            ],
+			"default"		: "left"
+		},
+        {
+			"name"			: "Speed",
+			"variable"		: "speed",
+			"type"			: "slider",
+            "cssVariable"	: true,
+            "min"			: 0.5,
+            "max"			: 10,
+            "unit"			: "s",
+			"default"		: 2
+		},
+        {
+			"name"			: "Image Width",
+			"variable"		: "imageWidth",
+			"type"			: "slider",
+            "cssVariable"	: true,
+            "min"			: 30,
+            "max"			: 500,
+            "integer"		: true,
+            "unit"			: "px",
+			"default"		: 160
+		},
+        {
+			"name"			: "Spacing",
+			"variable"		: "spacing",
+			"type"			: "slider",
+            "cssVariable"	: true,
+            "min"			: 0,
+            "max"			: 300,
+            "integer"		: true,
+            "unit"			: "px",
+			"default"		: 80
+		},
+        {
+			"name"			: "Link (optional)",
+			"variable"		: "url",
+			"type"			: "url"
+		}
+	]
+}

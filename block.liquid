@@ -1,0 +1,21 @@
+<div alpacapp-element="carousel" class="carousel" style="--n-carousel-images:{{ images | size }};">
+  {% assign nImages = images | size %}
+  {% assign w = imageWidth | plus: spacing | times: nImages %}
+  {% assign repeat = 2400 | divided_by: w %}
+  {% assign repeat = repeat | ceil | plus: 1 | at_least: 3 %}
+  {% for i in (1..repeat) %}
+    {% for image in images %}
+      {% if url %}
+        <a alpacapp-element="carousel-image" class="carousel-image" href="{{ url }}">
+      {% else %}
+        <span alpacapp-element="carousel-image" class="carousel-image">
+      {% endif %}
+      <img src="{{ image | image_url: imageWidth }}" alt="{{ image.alt }}" />
+      {% if url %}
+        </a>
+      {% else %}
+        </span>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>
