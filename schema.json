@@ -19,7 +19,7 @@
 			"name": "Images",
     		"variable": "images",
     		"type": "image-gallery",
-    		"default": []
+    		"default": ["https://static.ybouane.com/alpacapp/google.png", "https://static.ybouane.com/alpacapp/ferrero.png", "https://static.ybouane.com/alpacapp/microsoft.png", "https://static.ybouane.com/alpacapp/aws.png", "https://static.ybouane.com/alpacapp/tesla.png", "https://static.ybouane.com/alpacapp/airbus.png", "https://static.ybouane.com/alpacapp/apple.png"]
 		},
         {
 			"name"			: "Direction",
