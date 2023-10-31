@@ -20,7 +20,15 @@
 	    		"variable": "images",
 	    		"type": "image-gallery",
 	    		"default": [
-				'https://yawb-user-images.s3.amazonaws.com/user-ima…7ccc1e17ab83da/apple-65414c298a3c15cfca03c261.png', 'https://yawb-user-images.s3.amazonaws.com/user-ima…ccc1e17ab83da/ferero-65414c298a3c15070303c260.png', 'https://yawb-user-images.s3.amazonaws.com/user-ima…ccc1e17ab83da/google-65414c298a3c15848403c262.png', 'https://yawb-user-images.s3.amazonaws.com/user-ima…1e17ab83da/microsoft-65414c2a8a3c15107703c263.png', 'https://yawb-user-images.s3.amazonaws.com/user-ima…ccc1e17ab83da/airbus-65414c298a3c15746b03c25f.png', 'https://yawb-user-images.s3.amazonaws.com/user-ima…7ccc1e17ab83da/tesla-65414c2b8a3c1530d803c264.png', 'https://yawb-user-images.s3.amazonaws.com/user-ima…f37ccc1e17ab83da/aws-65414c308a3c15db6803c265.png'
+				[
+    "https://yawb-user-images.s3.amazonaws.com/user-images/65413ccaf37ccc1e17ab83da/apple-65414d348a3c156ebb03c274.png",
+    "https://yawb-user-images.s3.amazonaws.com/user-images/65413ccaf37ccc1e17ab83da/aws-65414d348a3c15576003c273.png",
+    "https://yawb-user-images.s3.amazonaws.com/user-images/65413ccaf37ccc1e17ab83da/ferero-65414d348a3c155eb103c272.png",
+    "https://yawb-user-images.s3.amazonaws.com/user-images/65413ccaf37ccc1e17ab83da/airbus-65414d348a3c15668e03c271.png",
+    "https://yawb-user-images.s3.amazonaws.com/user-images/65413ccaf37ccc1e17ab83da/microsoft-65414d358a3c15cb6c03c276.png",
+    "https://yawb-user-images.s3.amazonaws.com/user-images/65413ccaf37ccc1e17ab83da/google-65414d348a3c1539c103c275.png",
+    "https://yawb-user-images.s3.amazonaws.com/user-images/65413ccaf37ccc1e17ab83da/tesla-65414d368a3c151ca103c277.png"
+]
 			]
 		},
         {
